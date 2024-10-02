@@ -1,0 +1,40 @@
+{
+  "name": "lab-mkim2052",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/ubb-webprog/labs2022/lab-mkim2052.git"
+  },
+  "author": "Mátis Krisztián",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/ubb-webprog/labs2022/lab-mkim2052/issues"
+  },
+  "homepage": "https://gitlab.com/ubb-webprog/labs2022/lab-mkim2052#readme",
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.7",
+    "express": "^4.17.3",
+    "express-formidable": "^1.2.0",
+    "formidable": "^2.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "mongodb": "^4.5.0",
+    "mongoose": "^6.3.3",
+    "morgan": "^1.10.0"
+  }
+}

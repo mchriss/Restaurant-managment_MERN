@@ -1,0 +1,10 @@
+stages:
+  - check
+
+check:
+  stage: check
+  image: bbteinfo/webprog-gitlabutils
+  script:
+    - cd backend
+    - npm install
+    - npx eslint --ignore-pattern "static/**" .
